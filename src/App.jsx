@@ -1,16 +1,21 @@
 import NavBar from "./components/NavBar"
+import Sidebar from "./components/Sidebar"
 
 function App() {
 
 
   return (
     <>
-      <NavBar/>
-      <div>
-        <h1>Hola mundo</h1>
+      <div className="flex">
+        <div className="w-1/6">
+          <Sidebar />
+        </div>
+        <div className="w-5/6">
+          <NavBar />
+        </div>
       </div>
     </>
-  )
+  );
 }
 
 export default App

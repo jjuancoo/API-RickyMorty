@@ -3,7 +3,7 @@ import React from "react";
 const Sidebar = () => {
     return (
       <>
-        <div>
+        <div className="">
           <button
             data-drawer-target="default-sidebar"
             data-drawer-toggle="default-sidebar"
@@ -172,9 +172,9 @@ const Sidebar = () => {
             </div>
           </aside>
 
-          <div class="p-4 sm:ml-64">
+          {/* <div class="p-4 sm:ml-64">
             <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700"></div>
-          </div>
+          </div> */}
         </div>
       </>
     );
